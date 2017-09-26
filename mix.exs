@@ -6,6 +6,7 @@ defmodule Caesar.Mixfile do
       app: :caesar,
       escript: escript_config,
       version: "0.1.0",
+      source_url: "https://github.com/fernando133/caesar-cipher",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
       deps: deps()
